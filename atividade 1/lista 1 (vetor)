@@ -46,7 +46,7 @@ int main(){
 	
 }
 
-/*7- Desenvolva um algoritmo que cadastre os preços de até 100 diferentes CDs em uma loja. Após
+/*Desenvolva um algoritmo que cadastre os preços de até 100 diferentes CDs em uma loja. Após
 este cadastro, o algoritmo deverá possibilitar a execução de uma de duas funções para aumento
 dos preços cadastrados, sendo a primeira de 10% para todos os CDs, enquanto a segunda
 aumenta o percentual informado pelo vendedor para todos os CDs. Será o vendedor que
@@ -76,9 +76,9 @@ int main(){
 }
 	
 	for(i=0;i<5;i++){
-	printf("valores originais:%.0lf\n", cd[i]);
-	printf("com 10%%:%.0lf\n"), cd10[i];
-	printf("com %.1lf:%.0lf\n"), porcentagem,cdx[i];	
+	printf("valores originais:%.1lf\n", cd[i]);
+	printf("Valor com 10%% e : %.1lf\n", cd10[i]);
+	printf("Valor com %.1lf : %.1lf\n",porcentagem,cdx[i]);	
 }
 	
 	
